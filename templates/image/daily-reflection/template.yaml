@@ -1,0 +1,10 @@
+id: daily-reflection
+name: Daily Reflection Card
+type: image
+platforms: [facebook]
+format: { width: 1080, height: 1350 }
+brand: satsang-dawn
+fields:
+  required: [prompt, reflectionQuestion, topic]
+  optional: [sourceTitle, cta]
+exports: [png, mp4_static_animation]

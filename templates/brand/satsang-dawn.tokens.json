@@ -1,0 +1,34 @@
+{
+  "name": "satsang-dawn",
+  "colors": {
+    "cream": "#F7EBD4",
+    "parchment": "#EFE0C2",
+    "deepPurple": "#2B1638",
+    "lotusPurple": "#4B255F",
+    "saffron": "#D79A2B",
+    "olive": "#506B2F",
+    "softGold": "#E8C46A",
+    "ink": "#1D1622",
+    "muted": "#6F624F",
+    "captionBg": "rgba(43,22,56,0.78)"
+  },
+  "fonts": {
+    "display": "Cormorant Garamond",
+    "body": "Inter",
+    "serif": "Noto Serif"
+  },
+  "formats": {
+    "facebookFeedPortrait": {
+      "width": 1080,
+      "height": 1350
+    },
+    "verticalVideo": {
+      "width": 1080,
+      "height": 1920
+    },
+    "square": {
+      "width": 1080,
+      "height": 1080
+    }
+  }
+}

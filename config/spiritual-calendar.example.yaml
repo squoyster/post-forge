@@ -1,0 +1,49 @@
+observances:
+  - id: christmas
+    tradition: christian
+    name: Christmas
+    dateRule:
+      type: fixed
+      month: 12
+      day: 25
+    searchTopics:
+      - incarnation
+      - divine love
+      - devotion
+      - birth of Christ
+    postAngles:
+      - reflection
+      - quote
+      - interfaith parallel
+
+  - id: guru-purnima
+    tradition: sanatana_dharma
+    name: Guru Purnima
+    dateRule:
+      type: manual
+      note: Set annually from lunar calendar.
+    searchTopics:
+      - guru
+      - teacher
+      - grace
+      - devotion
+    postAngles:
+      - gratitude
+      - devotional teaching
+      - lineage
+
+  - id: vesak
+    tradition: buddhist
+    name: Vesak
+    dateRule:
+      type: manual
+      note: Set annually according to regional Buddhist calendar.
+    searchTopics:
+      - compassion
+      - awakening
+      - suffering
+      - liberation
+    postAngles:
+      - reflection
+      - teaching
+      - practice

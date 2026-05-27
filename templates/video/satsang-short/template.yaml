@@ -1,0 +1,29 @@
+id: satsang-short
+name: DKMC Satsang Short
+type: video
+platforms: [facebook_reels, youtube_shorts]
+format:
+  width: 1080
+  height: 1920
+  fps: 30
+  codec: h264
+  audioCodec: aac
+brand: satsang-dawn
+duration:
+  preferredMinSeconds: 30
+  preferredMaxSeconds: 90
+  hardMaxSeconds: 180
+segments:
+  intro: { durationSeconds: 1.5, template: intro.html }
+  clip: { source: selected_clip }
+  outro: { durationSeconds: 2.0, template: outro.html }
+captions:
+  enabledDefault: true
+  styleTemplate: captions.ass.template
+overlays:
+  topicLabel: true
+  watermark: true
+  ctaOutro: true
+fields:
+  required: [title, topic, speaker]
+  optional: [cta, sourceTitle]

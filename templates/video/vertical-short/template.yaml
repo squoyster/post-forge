@@ -1,0 +1,23 @@
+id: vertical-short-default
+name: Vertical Short Default
+type: video
+aspectRatio: "9:16"
+resolution:
+  width: 1080
+  height: 1920
+segments:
+  intro:
+    path: assets/intro/default-intro.mp4
+    required: false
+  clip:
+    source: selected_clip
+  outro:
+    path: assets/outro/default-outro.mp4
+    required: false
+captions:
+  enabledByDefault: true
+  format: ass
+overlays:
+  title: true
+  logo: true
+  sourceLabel: true

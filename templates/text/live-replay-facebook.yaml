@@ -1,0 +1,18 @@
+id: live-replay-facebook
+name: Facebook Page Live Replay Post
+type: social_post
+platform: facebook
+fields:
+  required: [title, replayUrl]
+  optional: [topic, summary, followCta]
+body: |
+  {{title}} is now available.
+
+  {{#if summary}}{{summary}}{{else}}We are sharing these teachings here so they are easier to revisit, reflect on, and practice during the week.{{/if}}
+
+  {{#if topic}}Topic: {{topic}}{{/if}}
+
+  Watch the replay:
+  {{replayUrl}}
+
+  {{#if followCta}}{{followCta}}{{else}}Follow Divine Knowledge Meditation Center for short teachings, live updates, and selected clips from the satsang archive.{{/if}}

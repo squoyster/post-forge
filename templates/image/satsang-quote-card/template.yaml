@@ -1,0 +1,13 @@
+id: satsang-quote-card
+name: Satsang Quote Card
+type: image
+platforms: [facebook]
+format: { width: 1080, height: 1350 }
+brand: satsang-dawn
+fields:
+  required: [seriesLabel, quote, speaker, topic]
+  optional: [reflection, sourceTitle, cta]
+limits:
+  quoteMaxWords: 32
+  reflectionMaxWords: 45
+exports: [png, mp4_static_animation]

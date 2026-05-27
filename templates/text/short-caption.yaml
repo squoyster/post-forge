@@ -1,0 +1,17 @@
+id: short-caption
+name: Short Clip Caption
+type: social_post
+platforms: [facebook, youtube]
+fields:
+  required: [hook, summary]
+  optional: [question, cta, hashtags]
+body: |
+  {{hook}}
+
+  {{summary}}
+
+  {{#if question}}{{question}}{{/if}}
+
+  {{#if cta}}{{cta}}{{else}}Follow for more short teachings from the DKMC satsang archive.{{/if}}
+
+  {{#if hashtags}}{{hashtags}}{{else}}#Meditation #Satsang #SelfInquiry #DKMC{{/if}}

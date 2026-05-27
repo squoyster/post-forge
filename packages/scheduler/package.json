@@ -1,0 +1,23 @@
+{
+  "name": "@post-forge/scheduler",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@post-forge/db": "workspace:*",
+    "pg-boss": "^9.0.3",
+    "drizzle-orm": "^0.30.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.0",
+    "typescript": "^5.4.5"
+  }
+}
